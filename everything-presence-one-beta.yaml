@@ -22,7 +22,7 @@ esphome:
     name: "${project_name}"
     version: "${project_version}"
   includes:
-    - SEN0395_distance.h
+    - ./SEN0395_distance.h
 
 esp32:
   board: esp32dev
