@@ -88,6 +88,7 @@ number:
     entity_category: config
     disabled_by_default: False
     icon: "mdi:arrow-left-right"
+    restore: true
 
   - platform: template
     id: mmwave_zone_1_end
@@ -102,6 +103,7 @@ number:
     entity_category: config
     disabled_by_default: False
     icon: "mdi:arrow-left-right"
+    restore: true
 
   - platform: template
     id: mmwave_zone_2_start
@@ -116,6 +118,7 @@ number:
     entity_category: config
     disabled_by_default: True
     icon: "mdi:arrow-left-right"
+    restore: true
     
   - platform: template
     id: mmwave_zone_2_end
@@ -130,6 +133,7 @@ number:
     entity_category: config
     disabled_by_default: True
     icon: "mdi:arrow-left-right"
+    restore: true
     
   - platform: template
     id: mmwave_zone_3_start
